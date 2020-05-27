@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+}
+
+.topnav {
+  overflow: hidden;
+  text-align:left;
+  position: fixed;
+  width:100%;
+  text-align:right;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color:#fff;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: .5s;
+
+}
+
+.topnav a:hover {
+  color: #ddd;
+ 
+}
+
+
+
+.topnav .icon {
+  display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: fixed;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    width:100%;
+	background-color:#fff;
+  }
+}
+
+
+
+
+.react {
+	background-color:#fff;
+	transition: 1s;
+	height:47px;
+	text-align:end;
+	padding-top:7px;
+	text-align:right;
+	box-shadow:10px 10px 0px 10px #bdbdbd;
+}
+.topnav .react a {
+	color:#000;
+	text-align:right;
+}
+
+nav {
+	  padding-top:7px;
+}
+
+.right {
+	height:100%;
+	margin-right:20px;
+	
+	float: right;
+}

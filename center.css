@@ -1,0 +1,9 @@
+.v-center {
+ text-align: center;
+  
+}
+.h-center {
+	width:100%;
+   display:flex;
+   align-items:center;
+}

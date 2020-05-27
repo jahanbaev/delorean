@@ -1,0 +1,28 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+.parallax {
+
+  background-image:url(bg1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100%;
+  display:flex;
+ 
+}
+
+h1 {
+	width:100%;
+	color:#fff;
+	font-size:60px;
+}
+
+.bas {
+	height:100%;
+	width:100%;
+	background-color:rgba(0, 0, 0, 0.5);
+}
